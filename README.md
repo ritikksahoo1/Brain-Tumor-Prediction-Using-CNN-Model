@@ -11,8 +11,8 @@ The dataset used in this project consists of MRI images of both healthy and tumo
 
 ## Data Summary
 
-- Classes:
-  - Brain Tumor
+- Classes:  
+  - Brain Tumor  
   - Healthy (No Tumor)
 - Image Dimensions: 224x224 pixels
 
@@ -40,7 +40,6 @@ The model was trained on the following data split:
 ## Results
 
 The model achieves high accuracy on the test set:
-
 - Test Accuracy: 99.65%
 - Precision: 99.9% (Healthy), 99.1% (Brain Tumor)
 - Recall: 99.4% (Healthy), 99.8% (Brain Tumor)
@@ -56,7 +55,7 @@ Training metrics:
 
 The trained model can be used to predict whether a given MRI image contains a brain tumor. Here's an example of a prediction:
 
-Prediction: BRAIN TUMOR DETECTED
+Prediction: **BRAIN TUMOR DETECTED**
 
 ![image](https://github.com/user-attachments/assets/2ab393a9-dfc3-48a6-94ca-b2acc78e0657)
 
@@ -74,7 +73,7 @@ To run this project, you need the following dependencies:
 
 ## Usage
 
-1. Install required libraries: tensorflow, opencv-python, scikit-learn, matplotlib, seaborn
+1. Install required libraries: `tensorflow`, `opencv-python`, `scikit-learn`, `matplotlib`, `seaborn`
 2. Prepare your dataset in the specified directory structure
 3. Run the Jupyter notebook to train and evaluate the model
 4. Use the trained model to predict on new brain MRI images
@@ -89,3 +88,14 @@ To run this project, you need the following dependencies:
 ## Conclusion
 
 This project demonstrates the effectiveness of deep learning, particularly transfer learning using the VGG-16 model, in detecting brain tumors from MRI images. With a high accuracy rate and robust performance, this model can be a valuable tool for medical professionals.
+
+## Publication
+
+This work is published by IEEE and authored by:
+
+- Ritik Kumar Sahoo
+- Saksham Sonik
+- Ayon Kumar Das
+- Aditya Kumar Sharma
+- Deepak Kumar Rakesh
+- Bichitrananda Behera
